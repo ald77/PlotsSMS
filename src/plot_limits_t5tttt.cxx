@@ -260,7 +260,7 @@ void addLabelsTitle(float lMargin, float tMargin, float rMargin, TString title){
   label.SetTextAlign(12); label.SetTextFont(61); label.SetTextSize(0.75*tMargin);
   label.DrawLatex(lMargin+offsetx, 1-tMargin/2., "CMS");
   label.SetTextAlign(12); label.SetTextFont(52); label.SetTextSize(0.038);
-  //label.DrawLatex(0.27+offsetx, 1-tMargin/2.-0.013, "Preliminary");
+  label.DrawLatex(0.27+offsetx, 1-tMargin/2.-0.013, "Preliminary");
   // Printing top title
   label.SetTextAlign(21); label.SetTextFont(42); label.SetTextSize(0.6*tMargin);
   //label.DrawLatex((1-rMargin-lMargin)/2.+lMargin-0.05, 1-tMargin/2., title);
